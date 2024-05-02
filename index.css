@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    margin: 20px;
+   
+}
+.title{
+   text-align: center;
+   margin: 5px;
+}
+h3{
+    font-size: 25px;
+    font-weight: 100;
+}
+p{
+    margin: 20px;
+}
+div .tooltip{
+    position: absolute;
+    border: none;
+    border-radius: 20px;
+    pointer-events: none;
+    padding: 10px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+}
+.title svg rect:hover{
+    border: 1px solid black;
+}
